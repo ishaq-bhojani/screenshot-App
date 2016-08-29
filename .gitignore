@@ -2,6 +2,7 @@
 # http://git-scm.com/docs/gitignore
 
 node_modules/
-
+.idea
+.DS_Store
 platforms/
 plugins/
