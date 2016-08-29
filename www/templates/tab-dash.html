@@ -1,0 +1,9 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <h2>Welcome to Screen shot App</h2>
+    <button class="button button-full button-positive" on-tap="takeScreenShot()">
+      Take Screen Shot
+    </button>
+    <button class="button button-clear button-positive" ng-if="url" on-tap="openUrl()">{{url}}</button>
+  </ion-content>
+</ion-view>
